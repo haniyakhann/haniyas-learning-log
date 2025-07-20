@@ -18,3 +18,15 @@ joke = response.json()
 # Show the setup and punchline
 print(joke["setup"])
 print(joke["punchline"])
+
+# Say there was a BeReal API (not public yet, sadly 😢), your app could say:
+
+# “API, show me Haniya’s BeReal from today.”
+
+# And the API would send back:
+
+{
+  "username": "haniyak",
+  "image": "https://bereal.com/haniyak/2025-07-20.jpg",
+  "caption": "at work 💻"
+}
